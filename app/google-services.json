@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "455750117617",
+    "firebase_url": "https://weatherkurs-default-rtdb.firebaseio.com",
+    "project_id": "weatherkurs",
+    "storage_bucket": "weatherkurs.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:455750117617:android:cbb95bac68ff3d18f32150",
+        "android_client_info": {
+          "package_name": "com.example.kurswork"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBs_yqy0lvAEAVAHaUrgpXB8ARFgxalniY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:455750117617:android:99ad26387e0e0eaff32150",
+        "android_client_info": {
+          "package_name": "com.example.weather"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBs_yqy0lvAEAVAHaUrgpXB8ARFgxalniY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
