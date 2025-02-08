@@ -17,8 +17,32 @@
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="?attr/colorPrimary"
-            app:popupTheme="@style/Theme.KursWork.PopupOverlay" />
+            app:popupTheme="@style/Theme.KursWork.PopupOverlay">
 
+            <!-- TextView для отображения имени пользователя -->
+            <TextView
+                android:id="@+id/usernameTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|center_vertical"
+                android:paddingEnd="8dp"
+                android:text="Unlogin"
+                android:textColor="@android:color/white"
+                android:textSize="16sp" />
+
+            <!-- Кнопка выхода -->
+            <ImageButton
+                android:id="@+id/logoutButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|center_vertical"
+                android:padding="8dp"
+                android:visibility="gone"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Logout"
+            app:srcCompat="@drawable/side_nav_bar" />
+
+        </androidx.appcompat.widget.Toolbar>
     </com.google.android.material.appbar.AppBarLayout>
 
     <include

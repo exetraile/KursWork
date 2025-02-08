@@ -8,8 +8,8 @@
     <string name="action_settings">Settings</string>
 
     <string name="menu_transform">Posts</string>
-    <string name="menu_reflow">Unavaible</string>
-    <string name="menu_slideshow">Unavaible</string>
+    <string name="menu_reflow">Registration</string>
+    <string name="menu_slideshow">Login</string>
     <string name="menu_settings">Settings</string>
 
     <string name="lorem_ipsum_title">Lorem Ipsum"</string>

@@ -6,17 +6,42 @@
     android:layout_height="match_parent"
     tools:context=".ui.reflow.ReflowFragment">
 
-    <TextView
-        android:id="@+id/text_reflow"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:textAlignment="center"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/usernameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:hint="Имя пользователя" />
+
+        <EditText
+            android:id="@+id/passwordEditText"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:hint="Пароль"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/confirmPasswordEditText"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:hint="Подтвердите пароль"
+            android:inputType="textPassword" />
+
+        <CheckBox
+            android:id="@+id/termsCheckBox"
+            android:layout_width="379dp"
+            android:layout_height="wrap_content"
+            android:text="Согласие с поеданием пельменей" />
+
+        <Button
+            android:id="@+id/registerButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Регистрация" />
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
