@@ -6,13 +6,15 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_transform"
-            android:icon="@android:drawable/ic_delete"
+            android:icon="@drawable/writer_3079998"
             android:title="@string/menu_transform" />
         <item
             android:id="@+id/nav_reflow"
+            android:icon="@drawable/clipboard_2921101"
             android:title="@string/menu_reflow" />
         <item
             android:id="@+id/nav_slideshow"
+            android:icon="@drawable/enter_1828381"
             android:title="@string/menu_slideshow" />
     </group>
 </menu>

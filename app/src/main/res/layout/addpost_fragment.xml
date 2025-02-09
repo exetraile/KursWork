@@ -3,18 +3,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:gravity="center"
     android:padding="16dp">
 
     <EditText
         android:id="@+id/editTextDescription"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="57dp"
         android:hint="Описание" />
 
     <EditText
         android:id="@+id/editTextImageUrl"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="59dp"
         android:hint="URL изображения" />
     <Button
         android:id="@+id/buttonSelectImage"
@@ -26,5 +27,6 @@
         android:id="@+id/buttonAdd"
         android:layout_width="380dp"
         android:layout_height="wrap_content"
-        android:text="Добавить" />
+        android:text="Добавить"
+        android:layout_gravity="center"/>
 </LinearLayout>
